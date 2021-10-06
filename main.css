@@ -1,0 +1,95 @@
+body{
+	
+	background-image: url("blue.jpg");
+	      /*background-size:100%;*/
+	      background-size: cover;
+	
+	padding: 0;
+	background-position: center;
+	/*font-family: 'Titillium Web', sans-serif;*/
+	font-family: georgia,serif;
+	color: #000000; /* color del texto de la pagina */
+	font size: 5rem;
+	line-height: 1.6em;
+	margin: 0;
+}
+h1{
+	font-size: 2rem;
+	text-align: center;
+	line-height: 1.3em;
+	color: #002b80;
+	font-family: Arial Black;
+	padding: 2%;
+}
+
+p{
+	margin-bottom: 1.6em;
+}
+.container{
+	width: 85%;
+	max-width: 980px;
+	margin: 0 auto ;
+}
+.header{
+	background-color: #333;
+	color: red; /*hhh*/
+	padding: 2rem 0;
+	/*border: 30px outset  #ffff1a;*/
+}
+	.header a{
+		color:  #00ffff; /*letra del encabezado*/
+		text-decoration: none;
+	}
+
+.ciencia-nav-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.navegation ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+	.navegation ul li {
+		display: inline-block;
+	}
+		.navegation ul li a {
+			display: block;
+			padding: 0.5rem 1rem;
+			transition: all 0.8s linear;
+			border: 5px;
+		}
+			.navegation ul li a:hover {
+				background: #ccffcc; /*color de transicion*/
+			}
+
+
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2%;
+}
+
+.estilo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #ccffff;
+	padding: 2%;
+} 
+.enlace {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 3%;
+
+}
+
+
+
+
+
+
